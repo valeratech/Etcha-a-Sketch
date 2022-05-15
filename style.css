@@ -21,7 +21,7 @@ section {
     /*align-items: center;*/
     background-color: #bb1111;
     height: 1000px;
-    width: 1000px;
+    width: 960px;
     border-radius: 20px;
 }
 
@@ -60,6 +60,7 @@ footer {
     /*border-style: solid;*/
     display: flex;
     height: 50px;
+    width: 960px;
     justify-content: center;
     align-items: center;
 

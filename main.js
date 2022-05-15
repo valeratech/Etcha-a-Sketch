@@ -1,3 +1,13 @@
+function createGrid() {
+    // prompt('Grid Size');
+    let newGrid = document.querySelectorAll('div');
+    console.log(newGrid)
+    for (n of newGrid) {
+        n.remove();
+    }
+}
+
+
 let square = document.querySelectorAll(".square");
 document.addEventListener("mouseover", () => {
 
@@ -7,4 +17,7 @@ document.addEventListener("mouseover", () => {
         });
     });
 });
+
+grid = document.querySelector('.grid');
+grid.addEventListener('click', createGrid);
 
