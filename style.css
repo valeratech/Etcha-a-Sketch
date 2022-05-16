@@ -16,12 +16,13 @@ main {
 }
 
 section {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #bb1111;
-    height: 960px;
-    width: 960px;
+    height: 1200px;
+    width: 1200px;
     border-radius: 20px;
 }
 
@@ -29,10 +30,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 25px;
     height: 100px;
     background-color: #bb1111;
     border-radius: 20px;
+}
+
+img {
+    width: 100px;
+    height: 80px;
 }
 
 h2 {

@@ -1,5 +1,15 @@
 function removeGrid() {
-    gridSize = prompt('Grid Size');
+    gridSize = 0;
+    while (true) {
+        gridSize = prompt('Please enter a grid size');
+        if (gridSize < 16) {
+            continue;
+        } else if (gridSize > 100) {
+            continue;
+        } else {
+            break;
+        }
+    }
     let newGrid = document.querySelectorAll('.container');
     for (n of newGrid) {
         n.remove();
