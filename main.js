@@ -26,20 +26,25 @@ function createGrid(size) {
             square.className = 'square'
         }
     }
+    createSketch()
 }
 
-grid = document.querySelector('.grid');
-grid.addEventListener('click', removeGrid);
+function createSketch() {
+    grid = document.querySelector('.grid');
+    grid.addEventListener('click', removeGrid);
 
-let square = document.querySelectorAll(".square");
+    let square = document.querySelectorAll(".square");
 
-// nested even listener where the outer event listeners
-document.addEventListener("mouseover", () => {
-    // use a for loop to iterate through every square (parameter "box") and add an event listener for each one
-    square.forEach(box => {
-        box.addEventListener('mouseover', (e) => {
-            e.target.style.backgroundColor = 'black';
+    // nested even listener where the outer event listeners
+    document.addEventListener("mouseover", () => {
+        // use a for loop to iterate through every square (parameter "box") and add an event listener for each one
+        square.forEach(box => {
+            box.addEventListener('mouseover', (e) => {
+                e.target.style.backgroundColor = 'black';
+            });
         });
     });
-});
+}
 
+
+createSketch()
