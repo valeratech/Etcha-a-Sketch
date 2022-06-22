@@ -47,16 +47,20 @@ function test(e) {
         e.target.classList.remove('square');
         e.target.classList.add('light');
         console.log(e.target);
-        } else if (e.target.className === 'light') {
-            e.target.classList.remove('light');
-            e.target.classList.add('dark');
-            console.log(e.target);
-        } else if (e.target.className === 'dark') {
-            e.target.classList.remove('dark');
-            e.target.classList.add('black');
-            console.log(e.target);
-        } else {
-            console.log(e.target);
+    } else if (e.target.className === 'light') {
+        e.target.classList.remove('light');
+        e.target.classList.add('medium');
+    console.log(e.target);
+    } else if (e.target.className === 'medium') {
+        e.target.classList.remove('medium');
+        e.target.classList.add('dark');
+        console.log(e.target);
+    } else if (e.target.className === 'dark') {
+        e.target.classList.remove('dark');
+        e.target.classList.add('black');
+        console.log(e.target);
+    } else {
+        console.log(e.target);
     }
     }
 
