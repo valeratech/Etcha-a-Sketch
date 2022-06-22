@@ -73,13 +73,44 @@ footer {
 
 .square {
     border-style: solid;
-    background-color: #adadad;
+    background-color: lightgrey;
     border-width: 1px;
     display: inline-block;
     width: 100%;
     height: 100%;
     aspect-ratio: 1/1;
 }
+
+.light {
+    border-style: solid;
+    background-color: darkgrey;
+    border-width: 1px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+.dark {
+    border-style: solid;
+    background-color: dimgrey;
+    border-width: 1px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+.black {
+    border-style: solid;
+    background-color: black;
+    border-width: 1px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
 
 .circle {
     height: 80px;

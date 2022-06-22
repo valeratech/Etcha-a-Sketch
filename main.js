@@ -1,5 +1,7 @@
 function removeGrid() {
     gridSize = 0;
+
+    // loop to limit the grid-size to a minimum of 16 and a maximum of 100
     while (true) {
         gridSize = prompt('Please enter a grid size');
         if (gridSize < 16) {
@@ -39,22 +41,45 @@ function createGrid(size) {
     createSketch()
 }
 
+function test(e) {
+
+    if (e.target.className === 'square') {
+        e.target.classList.remove('square');
+        e.target.classList.add('light');
+        console.log(e.target);
+        } else if (e.target.className === 'light') {
+            e.target.classList.remove('light');
+            e.target.classList.add('dark');
+            console.log(e.target);
+        } else if (e.target.className === 'dark') {
+            e.target.classList.remove('dark');
+            e.target.classList.add('black');
+            console.log(e.target);
+        } else {
+            console.log(e.target);
+    }
+    }
+
+
+
 function createSketch() {
     grid = document.querySelector('.grid');
     grid.addEventListener('click', removeGrid);
 
-    let square = document.querySelectorAll(".square");
 
     // nested even listener where the outer event listeners
-    document.addEventListener("mouseover", () => {
-        // use a for loop to iterate through every square (parameter "box") and add an event listener for each one
-        square.forEach(box => {
-            box.addEventListener('mouseover', (e) => {
-                e.target.style.backgroundColor = 'black';
-            });
-        });
+    // document.addEventListener("mouseover", () => {
+    // use a for loop to iterate through every square (parameter "box") and add an event listener for each one
+    let square = document.querySelectorAll(".square");
+    square.forEach(box => {
+        box.addEventListener('mouseover', (e) => {
+            test(e);
+        })
     });
 }
 
 
-createSketch()
+
+
+
+createSketch();
