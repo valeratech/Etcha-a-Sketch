@@ -49,12 +49,7 @@ function test(e) {
         console.log(e.target);
     } else if (e.target.className === 'light') {
         e.target.classList.remove('light');
-        e.target.classList.add('medium');
-    console.log(e.target);
-    } else if (e.target.className === 'medium') {
-        e.target.classList.remove('medium');
         e.target.classList.add('dark');
-        console.log(e.target);
     } else if (e.target.className === 'dark') {
         e.target.classList.remove('dark');
         e.target.classList.add('black');
@@ -62,7 +57,7 @@ function test(e) {
     } else {
         console.log(e.target);
     }
-    }
+}
 
 
 

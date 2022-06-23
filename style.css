@@ -74,6 +74,7 @@ footer {
 .square {
     border-style: solid;
     background-color: #dfdfdf;
+    border-color: #dfdfdf;
     border-width: 1px;
     display: inline-block;
     width: 100%;
@@ -84,16 +85,7 @@ footer {
 .light {
     border-style: solid;
     background-color: #b5b5b5;
-    border-width: 1px;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 1/1;
-}
-
-.medium {
-    border-style: solid;
-    background-color: #898989;
+    border-color: #b5b5b5;
     border-width: 1px;
     display: inline-block;
     width: 100%;
@@ -103,7 +95,8 @@ footer {
 
 .dark {
     border-style: solid;
-    background-color: #444444;
+    background-color: #626262;
+    border-color: #626262;
     border-width: 1px;
     display: inline-block;
     width: 100%;
@@ -114,6 +107,7 @@ footer {
 .black {
     border-style: solid;
     background-color: black;
+    border-color: black;
     border-width: 1px;
     display: inline-block;
     width: 100%;
