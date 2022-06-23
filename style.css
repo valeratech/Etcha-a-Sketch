@@ -84,8 +84,8 @@ footer {
 
 .light {
     border-style: solid;
-    background-color: #b5b5b5;
-    border-color: #b5b5b5;
+    background-color: #bcbcbc;
+    border-color: #bcbcbc;
     border-width: 1px;
     display: inline-block;
     width: 100%;
@@ -95,8 +95,8 @@ footer {
 
 .dark {
     border-style: solid;
-    background-color: #626262;
-    border-color: #626262;
+    background-color: #565656;
+    border-color: #565656;
     border-width: 1px;
     display: inline-block;
     width: 100%;
