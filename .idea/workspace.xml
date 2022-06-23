@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,8 @@
       <updated>1652634329484</updated>
       <workItem from="1652634331063" duration="12565000" />
       <workItem from="1652647395231" duration="32440000" />
-      <workItem from="1655928830729" duration="24846000" />
+      <workItem from="1655928830729" duration="24942000" />
+      <workItem from="1655961866389" duration="1975000" />
     </task>
     <servers />
   </component>

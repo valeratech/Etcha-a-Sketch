@@ -88,8 +88,12 @@ function createSketch() {
 }
 
 let master = document.querySelector('.master');
+let shake = document.querySelector('.shake');
+let grid = document.querySelector('.grid');
 master.addEventListener('click', onOff);
-grid = document.querySelector('.grid');
+shake.addEventListener('click', () => {
+    location.reload();
+})
 grid.addEventListener('click', removeGrid);
 
 
